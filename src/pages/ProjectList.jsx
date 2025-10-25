@@ -41,6 +41,7 @@ const addingprocess=async()=>{
         setprodata({projname:'',projmanager:'',teammembers:'',startdate:'',enddate:'',budget:''})
         toast.success(out.data.message)
         getallprojects()
+        handleClose()
       }
       
     } catch (error) {
