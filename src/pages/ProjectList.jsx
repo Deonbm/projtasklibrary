@@ -91,10 +91,8 @@ const getallprojects=async()=>{
            
                    </Modal.Body>
                    <Modal.Footer>
-                     <Button variant="secondary" onClick={handleClose}>
-                       Close
-                     </Button>
-                     <Button onClick={addingprocess} variant="primary">Understood</Button>
+                   
+                     <Button onClick={addingprocess} variant="primary">Add</Button>
                    </Modal.Footer>
                  </Modal>
         </div>
